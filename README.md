@@ -46,7 +46,7 @@ for(i=1;i<=n;i++)
             error=error+1;
         }
     }
-    k=(float)zq/n;
+    k=(float)correct/n;
     cout<<"回答正确的数量为："<<" "<<correct<<"个"<<endl;
     cout<<"回答错误的数量为："<<" "<<error<<"个"<<endl;
     cout<<"正确率为："<<" "<<k<<endl;
