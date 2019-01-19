@@ -5,15 +5,17 @@ public class AddString {
     public String[] addString(int[] a,String[] b ){
         String[] c=new String[a.length+b.length];
         //数组c的0、2、4、6、8.....位为数，1、3、5、7、9位为符号
+
+        int z=0;
         for(int i=0;i<a.length;i++){
-            int j=0;
-            c[j]=a[i]+" ";
-            j=j+2;
+            c[z]=a[i]+" ";
+            z=z+2;
         }
+
+        int x=1;
         for(int i=0;i<b.length;i++){
-            int j=1;
-            c[j]=b[i];
-            j=j+2;
+            c[x]=b[i];
+            x=x+2;
         }
         return c;
     }
